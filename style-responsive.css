@@ -1,0 +1,68 @@
+/*--------------------- @media style  ----------------- */
+
+/*smart Phone And Tablets */
+@media (max-width:320px)
+{
+ .contact-us form input:last-of-type {padding: 15px 55px} 
+}
+@media (max-width: 767px){
+    .navbar-main .navbar-nav .nav-item  .nav-link{padding-left: 20px;}
+    .navbar-main .navbar-nav .nav-item{ margin-top: 10px; }
+    .navbar-main .navbar-nav .active>.nav-link, 
+    .navbar-light .navbar-nav .nav-link.active, 
+    .navbar-light .navbar-nav .nav-link.show, 
+    .navbar-light .navbar-nav .show>.nav-link
+     {
+         border-radius: 5px;
+     }
+    /* navbar media */
+    .slider{ min-height: 200px;margin-bottom: 30px; }
+    .slider h1 { margin-top: 10%; font-size: 30px;}
+    .slider button { padding: 10px 20px; margin-top: 20px; margin-bottom:25px;}
+    /* slider media */
+     .icon .font-icon i { margin-top: 0;}
+     .icon .need {  margin-top: 30px;}
+    .icon .need h2 { font-size: 20px;  padding-top: 30px;}  
+    /* icon */
+    .fully-resp .two {  margin-top: 30px; }
+    /* fully-resp*/
+    .contact-us form input,
+    .contact-us form input:last-of-type {padding: 15px 80px}
+    .contact-us form  button{ margin-left: 0; }
+    .clients .back-color{
+        background:  linear-gradient( #69fcc8  , #47d9ce );
+     margin-left: 10px;
+     margin-right: 10px;
+    }
+    
+}
+
+/* small Screen */
+@media (min-width:768px)and  (max-width:991px)  {
+    .navbar-main .navbar-nav .nav-item  .nav-link{padding-left: 30px;}
+    .navbar-main .navbar-nav .nav-item{ margin-top: 15px; }
+    /* navbar media */
+    .slider{ min-height: 300px;margin-bottom: 30px; }
+    .slider h1 { margin-top: 10%; font-size: 40px;}
+    .slider button { padding: 20px 30px; margin-top: 20px; margin-bottom:25px;}
+    /* slider media */
+    .icon .font-icon i { margin-top: 20px;}
+    .icon .need {  margin-top: 20px;}
+   .icon .need h2 { font-size: 30px;  padding-top: 40px;}  
+   /* icon */
+   .fully-resp .two h2 {
+       font-size: 30px
+   }
+   /* fully-resp*/
+  
+
+}
+
+/* medium Screen */
+@media (min-width:992px) and (max-width:1199px){
+  
+}
+
+/* lager Screen */
+@media (min-width:1200px)
+{}
